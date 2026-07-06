@@ -25,8 +25,8 @@ No browser extensions. No per-device setup. Ads and trackers get blocked at the 
 ### 1. Cloud VM Setup
 Provisioned a free-tier **Stardust** VM on Scaleway (1 vCPU, 1 GB RAM, Ubuntu 26.04) and connected via SSH.
 
-![VM Details](screenshots/01-scaleway-vm-details.png)
-![SSH Connection](screenshots/02-ssh-connect.png)
+![VM Details](01-scaleway-vm-details.png)
+![SSH Connection](02-ssh-connect.png)
 
 ### 2. AdGuard Home Installation
 Installed AdGuard Home and set it up as a `systemd` service so it runs persistently and restarts automatically. Verified it was live and healthy with `systemctl status`.
@@ -35,7 +35,7 @@ Installed AdGuard Home and set it up as a `systemd` service so it runs persisten
 sudo systemctl status AdGuardHome
 ```
 
-![AdGuard Home Service Status](screenshots/03-adguard-systemctl-status.png)
+![AdGuard Home Service Status](03-adguard-systemctl-status.png)
 
 ### 3. Firewall & Security
 Locked down the server so only the necessary ports were exposed — SSH, DNS, and the admin panel — using UFW, layered with Scaleway's cloud-level security groups for defense in depth.
@@ -48,20 +48,20 @@ sudo ufw allow 3000/tcp
 sudo ufw enable
 ```
 
-![UFW Status](screenshots/04-ufw-status.png)
-![Scaleway Security Group](screenshots/05-scaleway-security-group.png)
+![UFW Status](04-ufw-status.png)
+![Scaleway Security Group](05-scaleway-security-group.png)
 
 ### 4. Device Configuration
 Pointed device DNS settings to the VM's IP address so filtering applies automatically across the network — no extensions or per-browser configuration needed.
 
-![Device DNS Settings](screenshots/06-device-dns-settings.png)
+![Device DNS Settings](\06-device-dns-settings.png)
 
 ### 5. Verification
 Tested the setup against [adblock-tester.com](https://adblock-tester.com) to confirm ads, trackers, and analytics scripts were actually being blocked in practice.
 
 **Result: 89/100**
 
-![AdBlock Tester Result](screenshots/07-adblock-tester-result.png)
+![AdBlock Tester Result](07-adblock-tester-result.png)
 
 ---
 
