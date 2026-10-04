@@ -1,7 +1,6 @@
 # DreadByte DNS 🛡️
 
-Self-hosted, network-wide ad and tracker blocking DNS server built with **AdGuard Home**, deployed on a free-tier cloud VM. Part of the broader **DreadByte** security project.
-
+Self-hosted, network-wide ad and tracker blocking DNS server built with **AdGuard Home**, deployed on a free-tier cloud VM.
 No browser extensions. No per-device setup. Ads and trackers get blocked at the DNS level, before they ever load — across every device on the network.
 
 ---
