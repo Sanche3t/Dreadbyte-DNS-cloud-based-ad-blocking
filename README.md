@@ -82,4 +82,15 @@ Tested the setup against [adblock-tester.com](https://adblock-tester.com) to con
 - **After:** Network-wide blocking verified via adblock-tester.com, scoring 89/100.
 - **Cost:** ~$0 (free-tier VM).
 
+## 👨‍💻 Author
+
+**Sancheet Pawar**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Sanche3t-181717?logo=github)](https://github.com/Sanche3t)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sancheet%20Pawar-0077B5?logo=linkedin)](https://linkedin.com/in/sancheet-pawar)
+
+---
+
+⭐ If you found this project helpful, please give it a star!
+
 ---
