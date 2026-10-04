@@ -83,8 +83,3 @@ Tested the setup against [adblock-tester.com](https://adblock-tester.com) to con
 - **Cost:** ~$0 (free-tier VM).
 
 ---
-
-## 🔗 Notes
-
-- IP addresses in screenshots are redacted/cropped for security — don't expose a live server's public IP.
-- This project is part of the larger **DreadByte** initiative, which also includes a Chrome security extension (URL scanning, HTTPS enforcement, redirect tracking).
